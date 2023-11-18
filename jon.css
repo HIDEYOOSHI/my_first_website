@@ -68,13 +68,15 @@ footer{
 .az{
     font-size: 20px;
 }
-@media all and (max-width: 550px) {
-  .main{
-      flex-direction: column;
-  }
-    main{
-        padding: 5em 0 5em 0;
+@media all and (max-width: 480px) {
+    .main{
+        flex-direction: column;
+        grid-template-rows: 80px 80px auto 80px 80px;
+        grid-template-columns: 1fr;
     }
-}
+      aside, main{
+        grid-column: 1/4;
+      }
+  }
 
 
