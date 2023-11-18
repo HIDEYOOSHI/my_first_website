@@ -70,7 +70,7 @@ footer{
 }
 @media all and (max-width: 550px) {
   .main{
-      flex-firection: column;
+      flex-direction: column;
   }
     main{
         padding: 5em 0 5em 0;
