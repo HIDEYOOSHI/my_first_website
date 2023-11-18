@@ -68,4 +68,13 @@ footer{
 .az{
     font-size: 20px;
 }
+@media all and (max-width: 550px) {
+  .main{
+      flex-firection: column;
+  }
+    main{
+        padding: 5em 0 5em 0;
+    }
+}
+
 
